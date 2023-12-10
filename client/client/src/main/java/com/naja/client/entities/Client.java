@@ -21,4 +21,10 @@ public class Client {
     private String nom;
     private String prenom;
     private int age;
+
+    public Client(String nom, String prenom, int age) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.age = age;
+    }
 }
